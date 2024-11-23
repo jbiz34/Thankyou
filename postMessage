@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You</title>
+</head>
+<body>
+  <script>
+    // Send a message to the parent window (Wix site) when the form is submitted
+    window.parent.postMessage("submissionComplete", "*");
+  </script>
+  <p>Thank you! Redirecting back to the site...</p>
+</body>
+</html>
